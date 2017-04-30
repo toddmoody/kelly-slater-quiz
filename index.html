@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+	<title>Kelly Slater Quiz</title>
+</head>
+<body>
+    <!--Container for the intro screen & elements-->
+    <div id="startContainer" class="start-container">
+        <div class="title">Kelly Slater Quiz</div>
+        <div id="start-blurb"></div>
+        <button id="start-btn">Take Quiz</button>
+    </div>
+    <!--Container for the quiz body incl. questions and dynamic answer response statement-->
+    <div id=quizContainer class="container">
+        <div id="score-display"></div>
+        <div class="title-q">Kelly Slater Quiz</div>
+        <div id="question" class="question"></div>
+            <label class="option"><input type="radio" name="option" value="1" /><span id="opt1"></span></label>
+            <label class="option"><input type="radio" name="option" value="2" /><span id="opt2"></span></label>
+            <label class="option"><input type="radio" name="option" value="3" /><span id="opt3"></span></label>
+            <label class="option"><input type="radio" name="option" value="4" /><span id="opt4"></span></label>
+            
+            <div id="answer-statement"></div>
+            
+            <button id="submitButton" class="next-btn">Submit</button>
+            <button id="nextButton" class="next-btn">Next Question</button>
+    </div>
+    <!--Container for the final score page-->
+    <div id="result" class="container result" style="display:none;">
+        <div id="final-score"></div>
+        <p>Did you make Kelly proud?</p>
+        <img src="assets/kelly-slater-3.jpg" alt="">
+        <button id="restart">Take Quiz Again?</button>
+    </div>
+<script src="assets/questions.js"></script>
+<script src="assets/quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url("bg-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+
+input {
+    margin-right: 15px;
+}
+
+.start-container {
+    padding: 25px 15px 20px 30px;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color:rgba(186, 186, 186, 0.58);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.container {
+    padding: 25px 15px 20px 30px;
+    height: 330px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(186, 186, 186, 0.58);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);   
+}
+
+.hide {
+    display: none;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.title-q {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#final-score {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.question {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+p {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.option {
+    width: 600px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.option:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.next-btn {
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px black solid;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.next-btn:hover {
+    color: white;
+    border: 1px white solid;
+}
+ 
+ #score-display {
+     float: right;
+     margin-right: 20px;
+ }
+
+#start-btn {
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px black solid;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#start-btn:hover {
+    color: white;
+    border: 1px white solid;
+}
+
+#restart {
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px black solid;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#restart:hover {
+    color: white;
+    border: 1px white solid;
+}
+
+#start-blurb {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 160px;
+	border-radius: 15px;
+	border-style: solid 1px black;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#result {
+    text-align: center;
+}
+
+#answer-statement {
+    font-size: 22px;
+    color: black;
+}
+ 
