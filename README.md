@@ -4,7 +4,7 @@ Quiz application as part of the thinkful Front-End Development Certification.  N
 
 ## Quiz questions & answers
 
-Extended to 11 questions.
+Extended to 11 Q&A's
 
 ## Future enhancements
 - Plan to provide random "wrong answer quotes" form an array.  Current one static response for incorrect answers.
